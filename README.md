@@ -1,9 +1,12 @@
-# Max/MSP Patches, Abstractions, Externals, RNBO, VSTs, and Ableton Max for Live 
+# br.max
+
+## Max/MSP abstractions and Ableton Max for Live devices by Brian Riordan
    
 By Brian Riordan  
 [guaguanco127@gmail.com](mailto:guaguanco127@gmail.com)  
 [brianriordanmusic@gmail.com](mailto:brianriordanmusic@gmail.com)   
-[https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/) 
+[https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/)  
+[https://github.com/guaguanco127/](https://github.com/guaguanco127/) 
 
 This repository is a project started by Brian Riordan in 2023. Users with access to either Max/MSP or Ableton Live Suite will be able to use customized patches, abstractions, externals, or Max for Live devices. Users with access to RNBO can build their own VST or AU audio plugins for free to use with their own DAW.    
 
