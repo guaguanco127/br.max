@@ -67,6 +67,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.delay.swarm](https://github.com/guaguanco127/br.delay.swarm) (formerly br.spacedelay) A stereo multi-voice delay: up to 12 voices keep skipping to random delay times (crossfaded, click-free), each with its own randomly moving filter, amplitude and panning, plus a freeze that loops only the last moments of the delay.
 
+[br.delay.tape](https://github.com/guaguanco127/br.delay.tape) A stereo tape-style delay: time changes bend the pitch like tape, Linked / Stereo / Ping-Pong modes, straight or cross feedback that can build into a dub runaway, tone filters on the echoes, drive, and wow and flutter. Click-free, including mode switches. Max/MSP, RNBO and Max for Live.
+
 ## <a name="grain"></a>Glitch/Granular Effects
 
 [br.munge](https://github.com/guaguanco127/br.munge) A real-time granulator and an emulation of the munger~ external object from Max/MSP. Additional features, such as the processing of a stereo signal, additional amplitude and stereo envelopes, ping-pong feedback, and a freeze that keeps the grains playing from only the last moments of the input, are included.
@@ -138,7 +140,7 @@ br.retrigger.1.0 A granular sampler that can retrigger any sample as frequent as
 
 br.tone.1.0 A standard tone generator. Sine, Sawtooth, Triangle, Square, White Noise, and Pink Noise. 
 
-br.delay.1.0 A stereo delay with more dynamic features than the typical stock plugin. Analog and digital modes, along with cross feedback features, and tape warp effects will be featured.
+br.delay.digital.1.0 A clean stereo digital delay: crossfaded time changes, cross feedback and more features than the typical stock plugin.
 
 br.comber.1.0 Not your typical comb filter. A cascade of all pass filters create many chaotic possibilities. Almost a granular sound. 
 
