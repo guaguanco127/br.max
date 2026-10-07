@@ -39,7 +39,7 @@ Please contact me at the emails provided above if you have any questions, notice
 
 [Distortion](#distortion)
 
-[Future Effects](#future) 
+[Future Effects/Instruments](#future) 
 
 ## <a name="utility"></a>Basic Utility Effects
 
@@ -132,37 +132,26 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 ## <a name="future"></a>Future Effects/Instruments
 
-These are planned effects to be released on a later date. 
+These are planned effects to be released at a later date. 
 
-br.scrub.1.0 A granular effect that scrubs through a buffer in real-time. 
+br.scrub A granular effect that scrubs through a buffer in real time. 
 
-br.delay.reverse.1.0 A reverse delay effect 
+br.delay.reverse A reverse delay effect. 
 
-br.skipper.1.0 A granular effect that acts like a chaotic degital delay that randomly skips between delay times. 
+br.skipper A granular effect that acts like a chaotic digital delay that randomly skips between delay times. 
 
-br.repeater.1.0 A type of looper that plays back the most recent "n seconds" stereo signals between 0. and 10,000 ms. This differs from a regular looper in that it reads from a circular buffer. It is reactionary in the sense that if you hear something that just happened you can go back and grab it. Scrubbing and speed features will be available. 
+br.repeater A type of looper that plays back the most recent "n seconds" of a stereo signal, between 0 and 10,000 ms. This differs from a regular looper in that it reads from a circular buffer. It is reactionary in the sense that if you hear something that just happened you can go back and grab it. Scrubbing and speed features will be available. 
 
-br.strong.1.0 A Karplus Strong style synth with different features. Higher fideltiy and deeper sound than the traditional synth. 
+br.strong A Karplus-Strong style synth with different features. Higher fidelity and deeper sound than the traditional synth. 
 
-br.retrigger.1.0 A granular sampler that can retrigger any sample as frequent as the nyquist frequency without changing the pitch. Pitchshifting feature for timbrel adjustments will be a feature. 
+br.retrigger A granular sampler that can retrigger any sample as frequently as the Nyquist frequency without changing the pitch. Pitch shifting for timbral adjustments will be a feature. 
 
-br.tone.1.0 A standard tone generator. Sine, Sawtooth, Triangle, Square, White Noise, and Pink Noise. 
+br.comber Not your typical comb filter. A cascade of allpass filters creates many chaotic possibilities. Almost a granular sound. 
 
-br.comber.1.0 Not your typical comb filter. A cascade of all pass filters create many chaotic possibilities. Almost a granular sound. 
+br.looper Not your typical looper. Various granular effects will be a feature. 
 
-br.looper.1.0 Not your typical looper. Various granular effects will be a feature. 
+br.modulator A variety of modulators (chorus, flanger, phaser, vibrato) with a variety of LFOs with folding and chaotic features. 
 
-br.modulator.1.0 A variety of modulators (chorus, flanger, phasor, tremolo, vibrato) with a variety of LFOs with folding and chaotic features 
+br.synth.detect A synth that takes in an audio signal and turns it into a synth.
 
-br.synth.detect.1.0 A synth that takes in an audio signal and turns it into a synth.
-
-Many more.....
-
-
-
-
-
-
-
-
-
+Many more...
