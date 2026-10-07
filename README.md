@@ -37,6 +37,8 @@ Please contact me at the emails provided above if you have any questions, notice
 
 [Waveshapers](#shapers)
 
+[Lo-Fi Effects](#lofi)
+
 [Future Effects](#future) 
 
 ## <a name="utility"></a>Basic Utility Effects
@@ -123,6 +125,10 @@ Many of these effects have a RNBO patch included that allow the user to export a
 [br.shaper](https://github.com/guaguanco127/br.shaper) Max/MSP abstractions: a family of mono waveshapers in gen~ for synthesis, antialiased and click-free. Wavefolder, wrapper, hard clipper and Buchla-style sine folder, plus an all-in-one with click-free mode switching. Works on audio and LFOs.
 
 [br.tanh](https://github.com/guaguanco127/br.tanh) Max/MSP abstraction: a mono tanh saturator in gen~ for synthesis, normalized, antialiased and click-free. Drive sweeps from clean to near-square at the same peak level, with a Mix for parallel saturation. Works on audio and LFOs.
+
+## <a name="lofi"></a>Lo-Fi Effects
+
+[br.crush](https://github.com/guaguanco127/br.crush) A stereo bit-crusher and sample-rate reducer: float Bits that morph smoothly between depths, Auto-gain so lowering Bits never jumps in level, a curved Rate dial with most of its travel in the low rates, a post low-pass, Dry/Wet and On/Off. Click-free. Max/MSP, RNBO and Max for Live.
 
 ## <a name="future"></a>Future Effects/Instruments
 
