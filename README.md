@@ -53,7 +53,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.utility.monobass.1.0](https://github.com/guaguanco127/br.utility.monobass.1.0) A basic utility effect that allows the user to sum frequencies below a cutoff to mono while leaving frequencies above in stereo
  
-[br.utility.stereo.1.0](https://github.com/guaguanco127/br.utility.stereo.1.0)  A basic utility effect that enables the user to adjust the mix of a stereo signal, such as swapping, left only, right only, mid, or side. Additionally, the user can change the resulting signal's width or pan.
+[br.utility.stereo](https://github.com/guaguanco127/br.utility.stereo)  Stereo modes (swap, left, right, mid, side), mid/side width from mono to extra wide, and pan as a Balance (like Ableton Utility) or Dual panner, all click-free. Version 2.0.
 
 [br.utility.stereomix.1.0](https://github.com/guaguanco127/br.utility.stereomix.1.0) A basic utility effect that allows the user to mix the individual stereo channels independently. In addition to invert settings, the user can adjust each channel's gain and panning. 
 
