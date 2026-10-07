@@ -55,7 +55,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
  
 [br.utility.stereo](https://github.com/guaguanco127/br.utility.stereo)  Stereo modes (swap, left, right, mid, side), mid/side width from mono to extra wide, and pan as a Balance (like Ableton Utility) or Dual panner, all click-free. Version 2.0.
 
-[br.utility.stereomix.1.0](https://github.com/guaguanco127/br.utility.stereomix.1.0) A basic utility effect that allows the user to mix the individual stereo channels independently. In addition to invert settings, the user can adjust each channel's gain and panning. 
+[br.utility.stereomix](https://github.com/guaguanco127/br.utility.stereomix)  A per-channel mixer for fixing one side of a stereo pair: polarity invert, gain and constant-power pan for each channel, all click-free. Version 2.0.
 
 [br.feedback](https://github.com/guaguanco127/br.feedback) Max/MSP abstractions that let a signal feed back into itself: a tapin~/tapout~ pair adds the one-vector delay MSP needs to run a loop. Mono and stereo versions, with an FM feedback example.
 
