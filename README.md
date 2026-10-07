@@ -51,7 +51,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.utility.mono](https://github.com/guaguanco127/br.utility.mono)  Click-free stereo to mono, with four mix settings for how L + R are combined (0 / -3 / -4.5 / -6 dB: one side, stereo, full mix, dual mono), with or without controls. Version 2.0.
 
-[br.utility.monobass.1.0](https://github.com/guaguanco127/br.utility.monobass.1.0) A basic utility effect that allows the user to sum frequencies below a cutoff to mono while leaving frequencies above in stereo
+[br.utility.monobass](https://github.com/guaguanco127/br.utility.monobass)  Click-free bass to mono: sums the lows below an adjustable crossover to mono and leaves the highs in stereo, with four mix settings (0 / -3 / -4.5 / -6 dB) and no comb filtering when switching, with or without controls. Version 2.0.
  
 [br.utility.stereo](https://github.com/guaguanco127/br.utility.stereo)  Stereo modes (swap, left, right, mid, side), mid/side width from mono to extra wide, and pan as a Balance (like Ableton Utility) or Dual panner, all click-free. Version 2.0.
 
