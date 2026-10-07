@@ -69,7 +69,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.delay.swarm](https://github.com/guaguanco127/br.delay.swarm) (formerly br.spacedelay) A stereo multi-voice delay: up to 12 voices keep skipping to random delay times (crossfaded, click-free), each with its own randomly moving filter, amplitude and panning, plus a freeze that loops only the last moments of the delay.
 
-[br.delay.tape](https://github.com/guaguanco127/br.delay.tape) A stereo tape-style delay: time changes bend the pitch like tape, Linked / Stereo / Ping-Pong modes, straight or cross feedback that can build into a dub runaway, tone filters on the echoes, drive, and wow and flutter. Click-free, including mode switches. Max/MSP, RNBO and Max for Live.
+[br.delay.tape](https://github.com/guaguanco127/br.delay.tape) A stereo tape-style delay: time changes bend the pitch like tape, Linked / Stereo / Ping-Pong modes, straight or cross feedback that can build into a dub runaway, tone filters on the echoes, drive, wow and flutter, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live.
 
 ## <a name="grain"></a>Glitch/Granular Effects
 
