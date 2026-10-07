@@ -47,7 +47,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.utility.gain.1.0](https://github.com/guaguanco127/br.utility.gain.1.0)  A basic utility effect that allows the user to adjust the volume of a stereo signal.
 
-[br.utility.mute.1.0](https://github.com/guaguanco127/br.utility.mute.1.0)  A basic utility effect that allows the user to mute a stereo signal.
+[br.utility.mute](https://github.com/guaguanco127/br.utility.mute)  A click-free mute (10 ms S-curve fade), mono or stereo, with or without a Mute button. Version 2.0.
 
 [br.utility.mono.1.0](https://github.com/guaguanco127/br.utility.mono.1.0)  A basic utility effect that sums a stereo signal into mono with 3 different mix settings.
 
