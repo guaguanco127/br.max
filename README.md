@@ -49,7 +49,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.utility.mute](https://github.com/guaguanco127/br.utility.mute)  A click-free mute (10 ms S-curve fade), mono or stereo, with or without a Mute button. Version 2.0.
 
-[br.utility.mono.1.0](https://github.com/guaguanco127/br.utility.mono.1.0)  A basic utility effect that sums a stereo signal into mono with 3 different mix settings.
+[br.utility.mono](https://github.com/guaguanco127/br.utility.mono)  Click-free stereo to mono, with four mix settings for how L + R are combined (0 / -3 / -4.5 / -6 dB: one side, stereo, full mix, dual mono), with or without controls. Version 2.0.
 
 [br.utility.monobass.1.0](https://github.com/guaguanco127/br.utility.monobass.1.0) A basic utility effect that allows the user to sum frequencies below a cutoff to mono while leaving frequencies above in stereo
  
