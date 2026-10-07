@@ -33,6 +33,8 @@ Please contact me at the emails provided above if you have any questions, notice
 
 [Filters](#filters)
 
+[Dynamics](#dynamics)
+
 [Waveshapers](#shapers)
 
 [Future Effects](#future) 
@@ -105,6 +107,10 @@ Many of these effects have a RNBO patch included that allow the user to export a
 ## <a name="filters"></a>Filters
 
 [br.filter](https://github.com/guaguanco127/br.filter) Max/MSP abstractions: a family of stereo biquad filters in gen~ with click-free controls. Lowpass, highpass, bandpass, notch, allpass, peak and shelves, plus an all-in-one biquad and level-matched versions.
+
+## <a name="dynamics"></a>Dynamics
+
+[br.comp](https://github.com/guaguanco127/br.comp) Max/MSP abstraction: a linked stereo compressor in gen~ whose controls mean what their units say. Soft knee, peak/RMS detection, dry/wet, sidechain and a gain reduction output, all click-free.
 
 ## <a name="shapers"></a>Waveshapers
 
