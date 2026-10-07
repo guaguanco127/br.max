@@ -45,7 +45,7 @@ These effects are modeled after the Ableton Utility audio effect. Inspect the pa
 
 Many of these effects have a RNBO patch included that allow the user to export as either a Max/MSP external, or a VST. 
 
-[br.utility.gain.1.0](https://github.com/guaguanco127/br.utility.gain.1.0)  A basic utility effect that allows the user to adjust the volume of a stereo signal.
+[br.utility.gain](https://github.com/guaguanco127/br.utility.gain)  A click-free gain in dB (-72 = silence, 0 = unchanged, up to +35), mono or stereo, with or without a Gain dial. Version 2.0.
 
 [br.utility.mute](https://github.com/guaguanco127/br.utility.mute)  A click-free mute (10 ms S-curve fade), mono or stereo, with or without a Mute button. Version 2.0.
 
