@@ -65,6 +65,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.delay.pitch.b](https://github.com/guaguanco127/br.delay.pitch.b) Version b of br.delay.pitch: the same pitch-shifting delay plus just-intonation pitch steps (overtone scale) with fine-tune cents, and randomizing of pitch, delay time and feedback -- by button, automatically, or on every attack you play.
 
+[br.delay.digital](https://github.com/guaguanco127/br.delay.digital) A clean stereo digital delay: time changes crossfade to the new time instead of bending the pitch (Xfade from a quick cut to a 5 s blur), Linked / Stereo / Ping-Pong modes, straight or cross feedback up to a never-fading 1, tone filters on the echoes, Hold to freeze the loop, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live.
+
 [br.delay.swarm](https://github.com/guaguanco127/br.delay.swarm) (formerly br.spacedelay) A stereo multi-voice delay: up to 12 voices keep skipping to random delay times (crossfaded, click-free), each with its own randomly moving filter, amplitude and panning, plus a freeze that loops only the last moments of the delay.
 
 [br.delay.tape](https://github.com/guaguanco127/br.delay.tape) A stereo tape-style delay: time changes bend the pitch like tape, Linked / Stereo / Ping-Pong modes, straight or cross feedback that can build into a dub runaway, tone filters on the echoes, drive, and wow and flutter. Click-free, including mode switches. Max/MSP, RNBO and Max for Live.
@@ -139,8 +141,6 @@ br.strong.1.0 A Karplus Strong style synth with different features. Higher fidel
 br.retrigger.1.0 A granular sampler that can retrigger any sample as frequent as the nyquist frequency without changing the pitch. Pitchshifting feature for timbrel adjustments will be a feature. 
 
 br.tone.1.0 A standard tone generator. Sine, Sawtooth, Triangle, Square, White Noise, and Pink Noise. 
-
-br.delay.digital.1.0 A clean stereo digital delay: crossfaded time changes, cross feedback and more features than the typical stock plugin.
 
 br.comber.1.0 Not your typical comb filter. A cascade of all pass filters create many chaotic possibilities. Almost a granular sound. 
 
