@@ -21,6 +21,8 @@ Please contact me at the emails provided above if you have any questions, notice
 
 [Basic Utility Effects](#utility) 
 
+[Mixing/Routing](#mixing)
+
 [Delay Effects](#delay)
 
 [Glitch/Granular Effects](#grain)
@@ -60,6 +62,10 @@ Many of these effects have a RNBO patch included that allow the user to export a
 [br.utility.stereomix](https://github.com/guaguanco127/br.utility.stereomix)  A per-channel mixer for fixing one side of a stereo pair: polarity invert, gain and constant-power pan for each channel, all click-free. Version 2.0.
 
 [br.feedback](https://github.com/guaguanco127/br.feedback) Max/MSP abstractions that let a signal feed back into itself: a tapin~/tapout~ pair adds the one-vector delay MSP needs to run a loop. Mono and stereo versions, with an FM feedback example.
+
+## <a name="mixing"></a>Mixing/Routing
+
+[br.xfade](https://github.com/guaguanco127/br.xfade) Max/MSP abstraction: a click-free A/B crossfader. One Position control for dry/wet mixing or switching sources, an adjustable fade time, and Equal Power or Linear law. Stereo and mono, with an RNBO host.
 
 ## <a name="delay"></a>Delay Effects   
 
