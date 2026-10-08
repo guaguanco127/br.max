@@ -67,6 +67,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.xfade](https://github.com/guaguanco127/br.xfade) Max/MSP abstraction: a click-free A/B crossfader. One Position control for dry/wet mixing or switching sources, an adjustable fade time, and Equal Power or Linear law. Stereo and mono, with an RNBO host.
 
+[br.aux](https://github.com/guaguanco127/br.aux) Max/MSP abstraction: a minimal aux send for parallel effects. Outputs a click-free copy of the signal at a Level in dB, for an effect you add back to the dry signal. Stereo and mono, with an RNBO host.
+
 ## <a name="delay"></a>Delay Effects   
 
 [br.delay.digital](https://github.com/guaguanco127/br.delay.digital) A clean stereo digital delay: time changes crossfade to the new time instead of bending the pitch (Xfade from a quick cut to a 5 s blur), Linked / Stereo / Ping-Pong modes, straight or cross feedback up to a never-fading 1, tone filters on the echoes, Hold to freeze the loop, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live.
