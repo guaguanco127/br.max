@@ -138,7 +138,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 ## <a name="distortion"></a>Distortion
 
-[br.crush](https://github.com/guaguanco127/br.crush) A stereo bit-crusher and sample-rate reducer: float Bits that morph smoothly between depths, Auto-gain so lowering Bits never jumps in level, a curved Rate dial with most of its travel in the low rates, a post low-pass, Dry/Wet and On/Off. Click-free. Max/MSP, RNBO and Max for Live.
+[br.crush](https://github.com/guaguanco127/br.crush) A stereo bit-crusher and sample-rate reducer: float Bits that morph smoothly between depths, Auto-gain so lowering Bits never jumps in level, a curved Rate dial with most of its travel in the low rates, a post low-pass, Dry/Wet and On/Off. Click-free, with a State outlet that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.1.
 
 ## <a name="future"></a>Future Effects/Instruments
 
