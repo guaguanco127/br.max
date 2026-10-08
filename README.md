@@ -128,6 +128,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.comp](https://github.com/guaguanco127/br.comp) Max/MSP abstraction: a linked stereo compressor in gen~ whose controls mean what their units say. Soft knee, peak/RMS detection, dry/wet, sidechain and a gain reduction output, all click-free.
 
+[br.limit](https://github.com/guaguanco127/br.limit) Max/MSP abstraction: a safety brickwall limiter in gen~. The output never goes above the Ceiling, however hard Drive pushes it. Lookahead is optional: 0 ms means no latency. True Peak option. Stereo and mono, with an RNBO host.
+
 ## <a name="shapers"></a>Waveshapers
 
 [br.shaper](https://github.com/guaguanco127/br.shaper) Max/MSP abstractions: a family of mono waveshapers in gen~ for synthesis, antialiased and click-free. Wavefolder, wrapper, hard clipper and Buchla-style sine folder, plus an all-in-one with click-free mode switching. Works on audio and LFOs.
