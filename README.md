@@ -65,9 +65,9 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 ## <a name="mixing"></a>Mixing/Routing
 
-[br.xfade](https://github.com/guaguanco127/br.xfade) Max/MSP abstraction: a click-free A/B crossfader. One Position control for dry/wet mixing or switching sources, an adjustable fade time, and Equal Power or Linear law. Stereo and mono, with an RNBO host.
+[br.xfade](https://github.com/guaguanco127/br.xfade) Max/MSP abstraction: a click-free A/B crossfader. One Position control for dry/wet mixing or switching sources, an adjustable fade time, and Equal Power or Linear law. Stereo and mono, with an RNBO host and a State outlet that reports every setting by name. Version 1.1.
 
-[br.aux](https://github.com/guaguanco127/br.aux) Max/MSP abstraction: a minimal aux send for parallel effects. Outputs a click-free copy of the signal at a Level in dB, for an effect you add back to the dry signal. Stereo and mono, with an RNBO host.
+[br.aux](https://github.com/guaguanco127/br.aux) Max/MSP abstraction: a minimal aux send for parallel effects. Outputs a click-free copy of the signal at a Level in dB, for an effect you add back to the dry signal. Stereo and mono, with an RNBO host and a State outlet that reports the level by name. Version 1.1.
 
 ## <a name="delay"></a>Delay Effects   
 
