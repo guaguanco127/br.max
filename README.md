@@ -49,7 +49,7 @@ These effects are modeled after the Ableton Utility audio effect. Inspect the pa
 
 Many of these effects have a RNBO patch included that allow the user to export as either a Max/MSP external, or a VST. 
 
-[br.utility.gain](https://github.com/guaguanco127/br.utility.gain)  A click-free gain in dB (-72 = silence, 0 = unchanged, up to +35), mono or stereo, with or without a Gain dial, with a State outlet that reports the gain by name. Version 2.1.
+[br.utility.gain](https://github.com/guaguanco127/br.utility.gain)  A click-free gain in dB (-72 = silence, 0 = unchanged, up to +35), mono or stereo, with or without a Gain dial, with a State outlet on the UI versions that reports the gain by name. Version 2.2.
 
 [br.utility.mute](https://github.com/guaguanco127/br.utility.mute)  A click-free mute (10 ms S-curve fade), mono or stereo, with or without a Mute button, with a State outlet on the UI versions that reports the mute by name. Version 2.2.
 
