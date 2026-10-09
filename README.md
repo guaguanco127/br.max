@@ -112,7 +112,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 ## <a name="modulation"></a>Modulation Tools
 
-[br.scale](https://github.com/guaguanco127/br.scale) Max/MSP abstractions that turn an LFO into volume or frequency on curves that sound even to the ear.
+[br.scale](https://github.com/guaguanco127/br.scale) Max/MSP abstractions that turn an LFO, oscillator or function generator (bipolar or unipolar) into volume or frequency on curves that sound even to the ear: equal-loudness gain, and octave-even pitch or filter sweeps. Each comes as a plain object whose controls take signals and a version with dials and a State outlet that reports every setting by name. The example lets you hear the curves against a plain linear scaling. Includes RNBO patches for building an external or plugin. Version 1.2.
 
 [br.am](https://github.com/guaguanco127/br.am) Max/MSP abstraction for click-free stereo tremolo that morphs into ring modulation, from LFO to audio rate. Comes as a plain object whose controls take signals (an LFO on Ring morphs AM into ring mod) and a version with dials and a State outlet that reports every setting by name. Includes an RNBO patch for building an external or plugin. Version 1.1.
 
