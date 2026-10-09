@@ -55,11 +55,11 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.utility.mono](https://github.com/guaguanco127/br.utility.mono)  Click-free stereo to mono, with four mix settings for how L + R are combined (0 / -3 / -4.5 / -6 dB: one side, stereo, full mix, dual mono), with or without controls, with a State outlet that reports both settings by name. Version 2.1.
 
-[br.utility.monobass](https://github.com/guaguanco127/br.utility.monobass)  Click-free bass to mono: sums the lows below an adjustable crossover to mono and leaves the highs in stereo, with four mix settings (0 / -3 / -4.5 / -6 dB) and no comb filtering when switching, with or without controls, with a State outlet that reports every setting by name. Version 2.1.
+[br.utility.monobass](https://github.com/guaguanco127/br.utility.monobass)  Click-free bass to mono: sums the lows below an adjustable crossover to mono and leaves the highs in stereo, with four mix settings (0 / -3 / -4.5 / -6 dB) and no comb filtering when switching, with or without controls, with a State outlet on the UI version that reports every setting by name. Version 2.2.
  
-[br.utility.stereo](https://github.com/guaguanco127/br.utility.stereo)  Stereo modes (swap, left, right, mid, side), mid/side width from mono to extra wide, and pan as a Balance (like Ableton Utility) or Dual panner, all click-free, with a State outlet that reports every setting by name. Version 2.1.
+[br.utility.stereo](https://github.com/guaguanco127/br.utility.stereo)  Stereo modes (swap, left, right, mid, side), mid/side width from mono to extra wide, and pan as a Balance (like Ableton Utility) or Dual panner, all click-free, with a State outlet on the UI version that reports every setting by name. Version 2.2.
 
-[br.utility.stereomix](https://github.com/guaguanco127/br.utility.stereomix)  A per-channel mixer for fixing one side of a stereo pair: polarity invert, gain and constant-power pan for each channel, all click-free, with a State outlet that reports every setting by name. Version 2.1.
+[br.utility.stereomix](https://github.com/guaguanco127/br.utility.stereomix)  A per-channel mixer for fixing one side of a stereo pair: polarity invert, gain and constant-power pan for each channel, all click-free, with a State outlet on the UI version that reports every setting by name. Version 2.2.
 
 [br.feedback](https://github.com/guaguanco127/br.feedback) Max/MSP abstractions that let a signal feed back into itself: a tapin~/tapout~ pair adds the one-vector delay MSP needs to run a loop. Mono and stereo versions, with an FM feedback example.
 
