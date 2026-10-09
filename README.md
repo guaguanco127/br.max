@@ -140,7 +140,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.crush](https://github.com/guaguanco127/br.crush) A stereo bit-crusher and sample-rate reducer: float Bits that morph smoothly between depths, Auto-gain so lowering Bits never jumps in level, a curved Rate dial with most of its travel in the low rates, a post low-pass, Dry/Wet and On/Off. Click-free, with a State outlet on the UI version that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.2.
 
-[br.overdrive](https://github.com/guaguanco127/br.overdrive) A stereo overdrive built in gen~: antialiased tanh drive up to 128 dB, Bias for tube-style even harmonics, a Tight high-pass before the drive and a Tone low-pass after it, Auto-gain so Drive changes the sound and not the level, Level, Dry/Wet and On/Off (Off pauses the DSP). Click-free, with a State outlet on the UI version that reports every setting by name. Max/MSP and RNBO. Version 1.0.
+[br.overdrive](https://github.com/guaguanco127/br.overdrive) A stereo overdrive built in gen~: antialiased tanh drive up to 128 dB, Bias for tube-style even harmonics, a Tight high-pass before the drive and a Tone low-pass after it, Auto-gain so Drive changes the sound and not the level, Level, Dry/Wet and On/Off (Off pauses the DSP). Click-free, with a State outlet on the UI version that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.0.
 
 ## <a name="future"></a>Future Effects/Instruments
 
