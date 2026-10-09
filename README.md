@@ -114,7 +114,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.scale](https://github.com/guaguanco127/br.scale) Max/MSP abstractions that turn an LFO into volume or frequency on curves that sound even to the ear.
 
-[br.am](https://github.com/guaguanco127/br.am) Max/MSP abstraction for click-free stereo tremolo that morphs into ring modulation, from LFO to audio rate.
+[br.am](https://github.com/guaguanco127/br.am) Max/MSP abstraction for click-free stereo tremolo that morphs into ring modulation, from LFO to audio rate. Comes as a plain object whose controls take signals (an LFO on Ring morphs AM into ring mod) and a version with dials and a State outlet that reports every setting by name. Version 1.1.
 
 [br.function](https://github.com/guaguanco127/br.function) Max/MSP abstraction: a mono rise/fall function generator in gen~, in the spirit of a Make Noise Maths channel. Envelope, slew/portamento and cycling LFO in one, with curved Rise and Fall, click-free retrigger, and end-of-rise/end-of-cycle pulses for chaining.
 
@@ -126,7 +126,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 ## <a name="dynamics"></a>Dynamics
 
-[br.comp](https://github.com/guaguanco127/br.comp) Max/MSP abstraction: a linked stereo compressor in gen~ whose controls mean what their units say. Soft knee, peak/RMS detection, dry/wet, sidechain and a gain reduction output, all click-free, and a State outlet that reports every setting by name. Version 1.1.
+[br.comp](https://github.com/guaguanco127/br.comp) Max/MSP abstraction: a linked stereo compressor in gen~ whose controls mean what their units say. Soft knee, peak/RMS detection, dry/wet, sidechain and a gain reduction output, all click-free. Comes as a plain object whose controls take signals and a version with dials and a State outlet that reports every setting by name. Version 1.2.
 
 [br.limit](https://github.com/guaguanco127/br.limit) Max/MSP abstraction: a safety brickwall limiter in gen~. The output never goes above the Ceiling, however hard Drive pushes it. Lookahead is optional: 0 ms means no latency. True Peak option. Stereo and mono, with an RNBO host and a State outlet on the UI versions that reports every setting by name. Version 1.2.
 
