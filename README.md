@@ -100,7 +100,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.freezex](https://github.com/guaguanco127/br.freezex) A spectral freeze object/device similar to br.freeze, except this allows for crossfading into the next freeze by as much as 10 seconds. It can also freeze automatically on every attack you play, a Feedback control layers each new freeze onto the one you are hearing, and Dry/Wet keeps the dry sound under the freeze. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.5.
 
-[br.freeze.partials](https://github.com/guaguanco127/br.freeze.partials) A spectral-style freeze Max/MSP object and Max for Live Device: tracks the partials of live stereo input and holds them as a bank of 16 sine voices per side with Buchla-style folding and per-partial levels. Crossfades between freezes, can freeze on every attack, and includes sigmund~ (Mac + Windows).
+[br.freeze.partials](https://github.com/guaguanco127/br.freeze.partials) A spectral-style freeze Max/MSP object and Max for Live Device: tracks the partials of live stereo input and holds them as a bank of 16 sine voices per side with Buchla-style folding and per-partial levels. Crossfades between freezes, can freeze on every attack, and includes sigmund~ (Mac + Windows). The abstraction has a State outlet that reports every setting by name. Version 1.2.
 
 [br.pitchshift](https://github.com/guaguanco127/br.pitchshift) A pitchshifting device/object with slight latency and no artifacts. Preferred for harmonization.
 
