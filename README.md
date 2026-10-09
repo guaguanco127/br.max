@@ -134,7 +134,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.shaper](https://github.com/guaguanco127/br.shaper) Max/MSP abstractions: a family of mono waveshapers in gen~ for synthesis, antialiased and click-free. Wavefolder, wrapper, hard clipper and Buchla-style sine folder, plus an all-in-one with click-free mode switching. Works on audio and LFOs.
 
-[br.tanh](https://github.com/guaguanco127/br.tanh) Max/MSP abstraction: a mono tanh saturator in gen~ for synthesis, normalized, antialiased and click-free. Drive sweeps from clean to near-square at the same peak level, with a Mix for parallel saturation. Works on audio and LFOs.
+[br.tanh](https://github.com/guaguanco127/br.tanh) Max/MSP abstraction: a mono and stereo tanh saturator in gen~ for synthesis, normalized, antialiased and click-free. Drive sweeps from clean to near-square at the same peak level, with a Mix for parallel saturation. Works on audio and LFOs. Comes as a plain object whose controls take signals and a version with dials and a State outlet that reports every setting by name. Includes RNBO patches for building an external or plugin. Version 1.1.
 
 ## <a name="distortion"></a>Distortion
 
