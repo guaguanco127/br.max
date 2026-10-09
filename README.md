@@ -71,7 +71,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 ## <a name="delay"></a>Delay Effects   
 
-[br.delay.digital](https://github.com/guaguanco127/br.delay.digital) A clean stereo digital delay: time changes crossfade to the new time instead of bending the pitch (Xfade from a quick cut to a 5 s blur), Linked / Stereo / Ping-Pong modes, straight or cross feedback up to a never-fading 1, tone filters on the echoes, Hold to freeze the loop, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live.
+[br.delay.digital](https://github.com/guaguanco127/br.delay.digital) A clean stereo digital delay: time changes crossfade to the new time instead of bending the pitch (Xfade from a quick cut to a 5 s blur), Linked / Stereo / Ping-Pong modes, straight or cross feedback up to a never-fading 1, tone filters on the echoes, Hold to freeze the loop, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live, with a State outlet on the UI version that reports every setting by name. Version 1.1.
 
 [br.delay.pitch.a](https://github.com/guaguanco127/br.delay.pitch.a) A stereo delay with a pitch-shifter inside the delay line, so every repeat is shifted again. Protected feedback loop (soft saturation, Highpass/Lowpass) that can hold or build, low CPU at rest.
 
@@ -79,7 +79,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.delay.swarm](https://github.com/guaguanco127/br.delay.swarm) (formerly br.spacedelay) A stereo multi-voice delay: up to 12 voices keep skipping to random delay times (crossfaded, click-free), each with its own randomly moving filter, amplitude and panning, plus a freeze that loops only the last moments of the delay.
 
-[br.delay.tape](https://github.com/guaguanco127/br.delay.tape) A stereo tape-style delay: time changes bend the pitch like tape, Linked / Stereo / Ping-Pong modes, straight or cross feedback that can build into a dub runaway, tone filters on the echoes, drive, wow and flutter, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live.
+[br.delay.tape](https://github.com/guaguanco127/br.delay.tape) A stereo tape-style delay: time changes bend the pitch like tape, Linked / Stereo / Ping-Pong modes, straight or cross feedback that can build into a dub runaway, tone filters on the echoes, drive, wow and flutter, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live, with a State outlet on the UI version that reports every setting by name. Version 1.2.
 
 ## <a name="grain"></a>Glitch/Granular Effects
 
