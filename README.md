@@ -85,11 +85,11 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.munge](https://github.com/guaguanco127/br.munge) A real-time granulator and an emulation of the munger~ external object from Max/MSP. Additional features, such as the processing of a stereo signal, additional amplitude and stereo envelopes, ping-pong feedback, and a freeze that keeps the grains playing from only the last moments of the input, are included.
 
-[br.stutter.a](https://github.com/guaguanco127/br.stutter.a) An abstraction/device that is built around the Max/MSP stutter~ object. A real-time granular glitch effect that is a signal capture buffer. 
+[br.stutter.a](https://github.com/guaguanco127/br.stutter.a) An abstraction/device that is built around the Max/MSP stutter~ object. A real-time granular glitch effect that is a signal capture buffer. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.2.
 
-[br.stutter.b](https://github.com/guaguanco127/br.stutter.b) An abstraction/device that is built around the Max/MSP stutter~ object. This contains all features as br.stutter.a but with extras. This effect adds LFOs in sync with each grain that can manipulate a filter, amplitude, and panning. 
+[br.stutter.b](https://github.com/guaguanco127/br.stutter.b) An abstraction/device that is built around the Max/MSP stutter~ object. This contains all features as br.stutter.a but with extras. This effect adds LFOs in sync with each grain that can manipulate a filter, amplitude, and panning. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.2.
 
-[br.stutter.c](https://github.com/guaguanco127/br.stutter.c) An abstraction/device that is built around the Max/MSP stutter~ object. This contains all features as br.stutter.b but with extras. This effect includes an auto re-triggering feature, auto-detection, adjustment of the phase (starting position) of the grains, and a refresher that restarts the grain when it reaches a certain position within the phase.
+[br.stutter.c](https://github.com/guaguanco127/br.stutter.c) An abstraction/device that is built around the Max/MSP stutter~ object. This contains all features as br.stutter.b but with extras. This effect includes an auto re-triggering feature, auto-detection, adjustment of the phase (starting position) of the grains, and a refresher that restarts the grain when it reaches a certain position within the phase. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.3.
 
 
 
