@@ -65,9 +65,9 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 ## <a name="mixing"></a>Mixing/Routing
 
-[br.xfade](https://github.com/guaguanco127/br.xfade) Max/MSP abstraction: a click-free A/B crossfader. One Position control for dry/wet mixing or switching sources, an adjustable fade time, and Equal Power or Linear law. Stereo and mono, with an RNBO host and a State outlet that reports every setting by name. Version 1.1.
+[br.xfade](https://github.com/guaguanco127/br.xfade) Max/MSP abstraction: a click-free A/B crossfader. One Position control for dry/wet mixing or switching sources, an adjustable fade time, and Equal Power or Linear law. Stereo and mono, with an RNBO host and a State outlet on the UI versions that reports every setting by name. Version 1.2.
 
-[br.aux](https://github.com/guaguanco127/br.aux) Max/MSP abstraction: a minimal aux send for parallel effects. Outputs a click-free copy of the signal at a Level in dB, for an effect you add back to the dry signal. Stereo and mono, with an RNBO host and a State outlet that reports the level by name. Version 1.1.
+[br.aux](https://github.com/guaguanco127/br.aux) Max/MSP abstraction: a minimal aux send for parallel effects. Outputs a click-free copy of the signal at a Level in dB, for an effect you add back to the dry signal. Stereo and mono, with an RNBO host and a State outlet on the UI versions that reports the level by name. Version 1.2.
 
 ## <a name="delay"></a>Delay Effects   
 
@@ -128,7 +128,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.comp](https://github.com/guaguanco127/br.comp) Max/MSP abstraction: a linked stereo compressor in gen~ whose controls mean what their units say. Soft knee, peak/RMS detection, dry/wet, sidechain and a gain reduction output, all click-free.
 
-[br.limit](https://github.com/guaguanco127/br.limit) Max/MSP abstraction: a safety brickwall limiter in gen~. The output never goes above the Ceiling, however hard Drive pushes it. Lookahead is optional: 0 ms means no latency. True Peak option. Stereo and mono, with an RNBO host and a State outlet that reports every setting by name. Version 1.1.
+[br.limit](https://github.com/guaguanco127/br.limit) Max/MSP abstraction: a safety brickwall limiter in gen~. The output never goes above the Ceiling, however hard Drive pushes it. Lookahead is optional: 0 ms means no latency. True Peak option. Stereo and mono, with an RNBO host and a State outlet on the UI versions that reports every setting by name. Version 1.2.
 
 ## <a name="shapers"></a>Waveshapers
 
@@ -138,7 +138,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 ## <a name="distortion"></a>Distortion
 
-[br.crush](https://github.com/guaguanco127/br.crush) A stereo bit-crusher and sample-rate reducer: float Bits that morph smoothly between depths, Auto-gain so lowering Bits never jumps in level, a curved Rate dial with most of its travel in the low rates, a post low-pass, Dry/Wet and On/Off. Click-free, with a State outlet that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.1.
+[br.crush](https://github.com/guaguanco127/br.crush) A stereo bit-crusher and sample-rate reducer: float Bits that morph smoothly between depths, Auto-gain so lowering Bits never jumps in level, a curved Rate dial with most of its travel in the low rates, a post low-pass, Dry/Wet and On/Off. Click-free, with a State outlet on the UI version that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.2.
 
 ## <a name="future"></a>Future Effects/Instruments
 
