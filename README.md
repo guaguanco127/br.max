@@ -53,7 +53,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.utility.mute](https://github.com/guaguanco127/br.utility.mute)  A click-free mute (10 ms S-curve fade), mono or stereo, with or without a Mute button, with a State outlet on the UI versions that reports the mute by name. Version 2.2.
 
-[br.utility.mono](https://github.com/guaguanco127/br.utility.mono)  Click-free stereo to mono, with four mix settings for how L + R are combined (0 / -3 / -4.5 / -6 dB: one side, stereo, full mix, dual mono), with or without controls, with a State outlet that reports both settings by name. Version 2.1.
+[br.utility.mono](https://github.com/guaguanco127/br.utility.mono)  Click-free stereo to mono, with four mix settings for how L + R are combined (0 / -3 / -4.5 / -6 dB: one side, stereo, full mix, dual mono), with or without controls, with a State outlet on the UI version that reports both settings by name. Version 2.2.
 
 [br.utility.monobass](https://github.com/guaguanco127/br.utility.monobass)  Click-free bass to mono: sums the lows below an adjustable crossover to mono and leaves the highs in stereo, with four mix settings (0 / -3 / -4.5 / -6 dB) and no comb filtering when switching, with or without controls, with a State outlet that reports every setting by name. Version 2.1.
  
