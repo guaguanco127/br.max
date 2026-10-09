@@ -122,7 +122,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.filter](https://github.com/guaguanco127/br.filter) Max/MSP abstractions: a family of stereo biquad filters in gen~ with click-free controls. Lowpass, highpass, bandpass, notch, allpass, peak and shelves, plus an all-in-one biquad and level-matched versions. Each comes as a plain object whose controls take signals (sweep it with an LFO) and a version with dials and a State outlet that reports every setting by name. Version 1.1.
 
-[br.eq3](https://github.com/guaguanco127/br.eq3) Max/MSP abstraction: a stereo 3-band EQ in gen~ that sums back exactly flat at 0 dB. Two movable crossovers, ±24 dB per band, a mute for each band, all click-free, and a State outlet that reports every setting by name. Version 1.1.
+[br.eq3](https://github.com/guaguanco127/br.eq3) Max/MSP abstraction: a stereo 3-band EQ in gen~ that sums back exactly flat at 0 dB. Two movable crossovers, ±24 dB per band, a mute for each band, all click-free. Comes as a plain object whose controls take signals and a version with controls and a State outlet that reports every setting by name. Includes an RNBO patch for building an external or plugin. Version 1.2.
 
 ## <a name="dynamics"></a>Dynamics
 
