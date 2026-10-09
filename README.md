@@ -102,7 +102,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.freeze.partials](https://github.com/guaguanco127/br.freeze.partials) A spectral-style freeze Max/MSP object and Max for Live Device: tracks the partials of live stereo input and holds them as a bank of 16 sine voices per side with Buchla-style folding and per-partial levels. Crossfades between freezes, can freeze on every attack, and includes sigmund~ (Mac + Windows). The abstraction has a State outlet that reports every setting by name. Version 1.2.
 
-[br.pitchshift](https://github.com/guaguanco127/br.pitchshift) A pitchshifting device/object with slight latency and no artifacts. Preferred for harmonization.
+[br.pitchshift](https://github.com/guaguanco127/br.pitchshift) A pitchshifting device/object with slight latency and no artifacts. Preferred for harmonization. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.2.
 
 [br.whammy.1.0](https://github.com/guaguanco127/br.whammy.1.0) A pitch-shifting device/object with no latency and some artifacts. 
 
