@@ -104,7 +104,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.pitchshift](https://github.com/guaguanco127/br.pitchshift) A pitchshifting device/object with slight latency and no artifacts. Preferred for harmonization. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.2.
 
-[br.whammy.1.0](https://github.com/guaguanco127/br.whammy.1.0) A pitch-shifting device/object with no latency and some artifacts. 
+[br.whammy](https://github.com/guaguanco127/br.whammy) A delay-line pitch-shifting device/object with no FFT latency and some artifacts, microtonal, with a Thru/Aux Mix Mode. The abstraction has a State outlet that reports every setting by name, an example patch, and an RNBO patch for building your own external or VST/AU. Version 1.1.
 
 ## <a name="oscillators"></a>Oscillators
 
