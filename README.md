@@ -33,6 +33,8 @@ Please contact me at the emails provided above if you have any questions, notice
 
 [Modulation Tools](#modulation)
 
+[Controllers](#controllers)
+
 [Filters](#filters)
 
 [Dynamics](#dynamics)
@@ -117,6 +119,10 @@ Many of these effects have a RNBO patch included that allow the user to export a
 [br.am](https://github.com/guaguanco127/br.am) Max/MSP abstraction for click-free stereo tremolo that morphs into ring modulation, from LFO to audio rate. Comes as a plain object whose controls take signals (an LFO on Ring morphs AM into ring mod) and a version with dials and a State outlet that reports every setting by name. Includes an RNBO patch for building an external or plugin. Version 1.1.
 
 [br.function](https://github.com/guaguanco127/br.function) Max/MSP abstraction: a mono rise/fall function generator in gen~, in the spirit of a Make Noise Maths channel. Envelope, slew/portamento and cycling LFO in one, with curved Rise and Fall, click-free retrigger, and end-of-rise/end-of-cycle pulses for chaining. Comes as a plain object whose controls take signals and a version with dials and a State outlet that reports every setting by name. Includes an RNBO patch for building an external or plugin. Version 1.1.
+
+## <a name="controllers"></a>Controllers
+
+[br.nanokontrol2](https://github.com/guaguanco127/br.nanokontrol2) Max/MSP abstraction for the Korg nanoKONTROL2. Track ◀ / ▶ step through 8 pages, so the controller's 8 dials, 8 faders and 24 buttons cover 64 dials, 64 faders and 192 buttons. Every control is sent by name ([r nk.p3.dial5], [r nk.p1.solo2], [r nk.play]), so nothing needs to be patched to it. Dials and faders use pickup: after a page change they wait until they pass their last value, so nothing jumps. Includes a device menu with Refresh and an example patch. Version 1.0.
 
 ## <a name="filters"></a>Filters
 
