@@ -124,7 +124,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.eq3](https://github.com/guaguanco127/br.eq3) Max/MSP abstraction: a stereo 3-band EQ in gen~ that sums back exactly flat at 0 dB. Two movable crossovers, ±24 dB per band, a mute for each band, all click-free. Comes as a plain object whose controls take signals and a version with controls and a State outlet that reports every setting by name. Includes an RNBO patch for building an external or plugin. Version 1.2.
 
-[br.dehum](https://github.com/guaguanco127/br.dehum) Max/MSP abstraction: a stereo hum remover for live input. Razor-thin notches on the 50 or 60 Hz mains hum and up to 24 of its harmonics, with Fine tune, Q, Depth, Tilt and Odd/Even controls, all click-free. Comes as a plain object whose controls take signals and a version with controls and a State outlet that reports every setting by name. Version 1.0.
+[br.dehum](https://github.com/guaguanco127/br.dehum) Max/MSP abstraction: a stereo hum remover for live input. Razor-thin notches on the 50 or 60 Hz mains hum and up to 24 of its harmonics, with Fine tune, Q, Depth, Tilt and Odd/Even controls, all click-free. Comes as a plain object whose controls take signals and a version with controls and a State outlet that reports every setting by name. Includes an RNBO patch for building an external or plugin. Version 1.0.
 
 ## <a name="dynamics"></a>Dynamics
 
