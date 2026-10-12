@@ -33,6 +33,8 @@ Please contact me at the emails provided above if you have any questions, notice
 
 [Modulation Tools](#modulation)
 
+[Sequencing/Timing](#sequencing)
+
 [Controllers](#controllers)
 
 [Filters](#filters)
@@ -120,9 +122,11 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.function](https://github.com/guaguanco127/br.function) Max/MSP abstraction: a mono rise/fall function generator in gen~, in the spirit of a Make Noise Maths channel. Envelope, slew/portamento and cycling LFO in one, with curved Rise and Fall, click-free retrigger, and end-of-rise/end-of-cycle pulses for chaining. Comes as a plain object whose controls take signals and a version with dials and a State outlet that reports every setting by name. Includes an RNBO patch for building an external or plugin. Version 1.1.
 
-[br.metro.random](https://github.com/guaguanco127/br.metro.random) Max/MSP abstraction: a metro that picks a new interval on every bang, between two times in either order. Six modes for how it picks: Random, Drunk (wanders from the last interval), Hold (may repeat it), Chaos (settled rhythmic loops that break into chaos), No-repeat (every step once) and Sneak (one step up or down). Linear or Log spacing, optional Steps for a fixed set of durations, a Seed for repeatable runs, and whole or decimal ms. Comes as a plain object that also takes @attributes (@mode drunk @steps 8) and a compact version with controls and a State outlet that reports every setting by name. Version 1.2.
+## <a name="sequencing"></a>Sequencing/Timing
 
 [br.counter](https://github.com/guaguanco127/br.counter) Max/MSP abstraction: a counter with eight modes in one object. Sync (follows the bangs or jumps to any number sent in), Forward, Backward, two Palindromes (ends played once or twice), Random, Urn (every number once, never repeating across rounds) and Drunk. Step size, Permutation (start the count later), and Fold: Modulo folds the count into a smaller range, Poly loops it on its own for polymeters. A carry outlet marks the end of each cycle for chaining counters, a hidden master outlet keeps the sync count running in every mode, and a Seed gives repeatable runs. Takes @attributes (@mode 3 @max 7). Version 1.0.
+
+[br.metro.random](https://github.com/guaguanco127/br.metro.random) Max/MSP abstraction: a metro that picks a new interval on every bang, between two times in either order. Six modes for how it picks: Random, Drunk (wanders from the last interval), Hold (may repeat it), Chaos (settled rhythmic loops that break into chaos), No-repeat (every step once) and Sneak (one step up or down). Linear or Log spacing, optional Steps for a fixed set of durations, a Seed for repeatable runs, and whole or decimal ms. Comes as a plain object that also takes @attributes (@mode drunk @steps 8) and a compact version with controls and a State outlet that reports every setting by name. Version 1.2.
 
 ## <a name="controllers"></a>Controllers
 
