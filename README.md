@@ -95,6 +95,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.stutter.c](https://github.com/guaguanco127/br.stutter.c) An abstraction/device that is built around the Max/MSP stutter~ object. This contains all features as br.stutter.b but with extras. This effect includes an auto re-triggering feature, auto-detection, adjustment of the phase (starting position) of the grains, and a refresher that restarts the grain when it reaches a certain position within the phase. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.4.
 
+[br.repeater](https://github.com/guaguanco127/br.repeater) Max/MSP abstraction: stereo repeater in gen~. Always recording, so you can grab the last 10 ms to 10 s of what just happened and loop it, ending where you pressed; grab again while it loops for the newest audio. Jump-to Position with a crossfade (no re-pitch), Speed -16 to 16 (backwards too), Size changes while it loops, two read heads so there is no dip at the loop point, all click-free. A Grab outlet bangs on every grab; the version with dials has a State outlet that reports every setting by name, and an example patch. Max/MSP, RNBO and Max for Live. Version 1.0.
+
 
 
 
@@ -171,8 +173,6 @@ br.scrub A granular effect that scrubs through a buffer in real time.
 br.delay.reverse A reverse delay effect. 
 
 br.skipper A granular effect that acts like a chaotic digital delay that randomly skips between delay times. 
-
-br.repeater A type of looper that plays back the most recent "n seconds" of a stereo signal, between 0 and 10,000 ms. This differs from a regular looper in that it reads from a circular buffer. It is reactionary in the sense that if you hear something that just happened you can go back and grab it. Scrubbing and speed features will be available. 
 
 br.strong A Karplus-Strong style synth with different features. Higher fidelity and deeper sound than the traditional synth. 
 
