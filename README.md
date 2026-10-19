@@ -110,6 +110,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.whammy](https://github.com/guaguanco127/br.whammy) A delay-line pitch-shifting device/object with no FFT latency and some artifacts, microtonal, with a Thru/Aux Mix Mode. The abstraction has a State outlet that reports every setting by name, an example patch, and an RNBO patch for building your own external or VST/AU. Version 1.1.
 
+[br.freqshift](https://github.com/guaguanco127/br.freqshift) Max/MSP abstraction: stereo frequency shifter in gen~. Moves every partial by the same number of Hz, up or down, with a feedback delay that shifts each echo again for barber-pole spirals. Feedback up to 0.99 that can never run away, dry/wet, On/Off with Thru/Aux, all click-free, at any sample rate. Comes as a plain object whose controls take signals and a version with dials and a State outlet that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.0.
+
 ## <a name="oscillators"></a>Oscillators
 
 [br.osc](https://github.com/guaguanco127/br.osc) An anti-aliasing Max/MSP oscillator with 8 morphing shapes, skew and hard sync: clean at audio rate, and just as good as an LFO.
