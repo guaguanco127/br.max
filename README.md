@@ -110,6 +110,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.pitchshift](https://github.com/guaguanco127/br.pitchshift) A pitchshifting device/object with slight latency and no artifacts. Preferred for harmonization. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.2.
 
+[br.harmonizer](https://github.com/guaguanco127/br.harmonizer) Play harmonies on a live voice or instrument: MIDI notes pick the pitches and retune~ shifts the input to each one, up to 8 voices. Autogain keeps quiet playing above retune~'s threshold and loud accents from overdriving it, while the harmonies follow your real dynamics. Mono or true Stereo (left and right harmonized separately), ADSR envelope, dry/wet. Max/MSP abstraction with an example patch. Version 1.0.
+
 [br.whammy](https://github.com/guaguanco127/br.whammy) A delay-line pitch-shifting device/object with no FFT latency and some artifacts, microtonal, with a Thru/Aux Mix Mode. The abstraction has a State outlet that reports every setting by name, an example patch, and an RNBO patch for building your own external or VST/AU. Version 1.1.
 
 [br.freqshift](https://github.com/guaguanco127/br.freqshift) Max/MSP abstraction: stereo frequency shifter in gen~. Moves every partial by the same number of Hz, up or down, with a feedback delay that shifts each echo again for barber-pole spirals. Feedback up to 0.99 that can never run away, dry/wet, On/Off with Thru/Aux, all click-free, at any sample rate. Comes as a plain object whose controls take signals and a version with dials and a State outlet that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.0.
