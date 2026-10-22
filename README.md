@@ -97,6 +97,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.repeater](https://github.com/guaguanco127/br.repeater) Max/MSP abstraction: stereo repeater in gen~. Always recording, so you can grab the last 10 ms to 10 s of what just happened and loop it, ending where you pressed; grab again while it loops for the newest audio. Jump-to Position with a crossfade (no re-pitch), Speed -16 to 16 (backwards too), Size changes while it loops, two read heads so there is no dip at the loop point, all click-free. A Grab outlet bangs on every grab; the version with dials has a State outlet that reports every setting by name, and an example patch. Max/MSP, RNBO and Max for Live. Version 1.1.
 
+[br.scrub](https://github.com/guaguanco127/br.scrub) A stereo delay-line scrubber in gen~: three buffers take turns, one records the newest Delay ms while the other two loop it at Rate -500 to 500 (backwards, frozen, or so fast it buzzes into a tone made of your input). Feedback with two sources (Input = echoes, Output = a spiral that piles up speed changes), LP on the scrubbed sound and its feedback, click-free Reset and Clear, On/Off with Thru/Aux mode, curved Rate dial. The version with dials has a State outlet that reports every setting by name, and an example patch. Based on scrubf~ from PeRColate (Trueman, DuBois). Max/MSP, RNBO and Max for Live. Version 1.0.
+
 
 
 
@@ -169,8 +171,6 @@ Many of these effects have a RNBO patch included that allow the user to export a
 ## <a name="future"></a>Future Effects/Instruments
 
 These are planned effects to be released at a later date. 
-
-br.scrub A granular effect that scrubs through a buffer in real time. 
 
 br.delay.reverse A reverse delay effect. 
 
