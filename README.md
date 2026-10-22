@@ -53,17 +53,17 @@ These effects are modeled after the Ableton Utility audio effect. Inspect the pa
 
 Many of these effects have a RNBO patch included that allow the user to export as either a Max/MSP external, or a VST. 
 
-[br.utility.gain](https://github.com/guaguanco127/br.utility.gain)  A click-free gain in dB (-72 = silence, 0 = unchanged, up to +35), mono or stereo, with or without a Gain dial, with a State outlet on the UI versions that reports the gain by name. Version 2.2.
+[br.utility.gain](https://github.com/guaguanco127/br.utility.gain)  A click-free gain in dB (-72 = silence, 0 = unchanged, up to +35), mono or stereo, with or without a Gain dial, with a State outlet on the UI versions that reports the gain by name. Version 2.3.
 
 [br.utility.mute](https://github.com/guaguanco127/br.utility.mute)  A click-free mute (10 ms S-curve fade), mono or stereo, with or without a Mute button, with a State outlet on the UI versions that reports the mute by name. Version 2.2.
 
 [br.utility.mono](https://github.com/guaguanco127/br.utility.mono)  Click-free stereo to mono, with four mix settings for how L + R are combined (0 / -3 / -4.5 / -6 dB: one side, stereo, full mix, dual mono), with or without controls, with a State outlet on the UI version that reports both settings by name. Version 2.2.
 
-[br.utility.monobass](https://github.com/guaguanco127/br.utility.monobass)  Click-free bass to mono: sums the lows below an adjustable crossover to mono and leaves the highs in stereo, with four mix settings (0 / -3 / -4.5 / -6 dB) and no comb filtering when switching, with or without controls, with a State outlet on the UI version that reports every setting by name. Version 2.2.
+[br.utility.monobass](https://github.com/guaguanco127/br.utility.monobass)  Click-free bass to mono: sums the lows below an adjustable crossover to mono and leaves the highs in stereo, with four mix settings (0 / -3 / -4.5 / -6 dB) and no comb filtering when switching, with or without controls, with a State outlet on the UI version that reports every setting by name. Version 2.3.
  
-[br.utility.stereo](https://github.com/guaguanco127/br.utility.stereo)  Stereo modes (swap, left, right, mid, side), mid/side width from mono to extra wide, and pan as a Balance (like Ableton Utility) or Dual panner, all click-free, with a State outlet on the UI version that reports every setting by name. Version 2.2.
+[br.utility.stereo](https://github.com/guaguanco127/br.utility.stereo)  Stereo modes (swap, left, right, mid, side), mid/side width from mono to extra wide, and pan as a Balance (like Ableton Utility) or Dual panner, all click-free, with a State outlet on the UI version that reports every setting by name. Version 2.3.
 
-[br.utility.stereomix](https://github.com/guaguanco127/br.utility.stereomix)  A per-channel mixer for fixing one side of a stereo pair: polarity invert, gain and constant-power pan for each channel, all click-free, with a State outlet on the UI version that reports every setting by name. Version 2.2.
+[br.utility.stereomix](https://github.com/guaguanco127/br.utility.stereomix)  A per-channel mixer for fixing one side of a stereo pair: polarity invert, gain and constant-power pan for each channel, all click-free, with a State outlet on the UI version that reports every setting by name. Version 2.3.
 
 [br.feedback](https://github.com/guaguanco127/br.feedback) Max/MSP abstractions that let a signal feed back into itself: a tapin~/tapout~ pair adds the one-vector delay MSP needs to run a loop. Mono and stereo versions, with an FM feedback example.
 
@@ -75,7 +75,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 ## <a name="delay"></a>Delay Effects   
 
-[br.delay.digital](https://github.com/guaguanco127/br.delay.digital) A clean stereo digital delay: time changes crossfade to the new time instead of bending the pitch (Xfade from a quick cut to a 5 s blur), Linked / Stereo / Ping-Pong modes, straight or cross feedback up to a never-fading 1, tone filters on the echoes, Hold to freeze the loop, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live, with a State outlet on the UI version that reports every setting by name. Version 1.1.
+[br.delay.digital](https://github.com/guaguanco127/br.delay.digital) A clean stereo digital delay: time changes crossfade to the new time instead of bending the pitch (Xfade from a quick cut to a 5 s blur), Linked / Stereo / Ping-Pong modes, straight or cross feedback up to a never-fading 1, tone filters on the echoes, Hold to freeze the loop, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live, with a State outlet on the UI version that reports every setting by name. Version 1.2.
 
 [br.delay.pitch.a](https://github.com/guaguanco127/br.delay.pitch.a) A stereo delay with a pitch-shifter inside the delay line, so every repeat is shifted again. Protected feedback loop (soft saturation, Highpass/Lowpass) that can hold or build, low CPU at rest. Thru/Aux mode; the abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.5.
 
@@ -83,7 +83,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.delay.swarm](https://github.com/guaguanco127/br.delay.swarm) (formerly br.spacedelay) A stereo multi-voice delay: up to 12 voices keep skipping to random delay times (crossfaded, click-free), each with its own randomly moving filter, amplitude and panning, plus a freeze that loops only the last moments of the delay. On/Off with Thru/Aux mode; the abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.4.
 
-[br.delay.tape](https://github.com/guaguanco127/br.delay.tape) A stereo tape-style delay: time changes bend the pitch like tape, Linked / Stereo / Ping-Pong modes, straight or cross feedback that can build into a dub runaway, tone filters on the echoes, drive, wow and flutter, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live, with a State outlet on the UI version that reports every setting by name. Version 1.2.
+[br.delay.tape](https://github.com/guaguanco127/br.delay.tape) A stereo tape-style delay: time changes bend the pitch like tape, Linked / Stereo / Ping-Pong modes, straight or cross feedback that can build into a dub runaway, tone filters on the echoes, drive, wow and flutter, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live, with a State outlet on the UI version that reports every setting by name. Version 1.3.
 
 ## <a name="grain"></a>Glitch/Granular Effects
 
@@ -95,7 +95,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.stutter.c](https://github.com/guaguanco127/br.stutter.c) An abstraction/device that is built around the Max/MSP stutter~ object. This contains all features as br.stutter.b but with extras. This effect includes an auto re-triggering feature, auto-detection, adjustment of the phase (starting position) of the grains, and a refresher that restarts the grain when it reaches a certain position within the phase. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.5.
 
-[br.repeater](https://github.com/guaguanco127/br.repeater) Max/MSP abstraction: stereo repeater in gen~. Always recording, so you can grab the last 10 ms to 10 s of what just happened and loop it, ending where you pressed; grab again while it loops for the newest audio. Jump-to Position with a crossfade (no re-pitch), Speed -16 to 16 (backwards too), Size changes while it loops, two read heads so there is no dip at the loop point, all click-free. A Grab outlet bangs on every grab; the version with dials has a State outlet that reports every setting by name, and an example patch. Max/MSP, RNBO and Max for Live. Version 1.0.
+[br.repeater](https://github.com/guaguanco127/br.repeater) Max/MSP abstraction: stereo repeater in gen~. Always recording, so you can grab the last 10 ms to 10 s of what just happened and loop it, ending where you pressed; grab again while it loops for the newest audio. Jump-to Position with a crossfade (no re-pitch), Speed -16 to 16 (backwards too), Size changes while it loops, two read heads so there is no dip at the loop point, all click-free. A Grab outlet bangs on every grab; the version with dials has a State outlet that reports every setting by name, and an example patch. Max/MSP, RNBO and Max for Live. Version 1.1.
 
 
 
@@ -114,7 +114,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.whammy](https://github.com/guaguanco127/br.whammy) A delay-line pitch-shifting device/object with no FFT latency and some artifacts, microtonal, with a Thru/Aux Mix Mode. The abstraction has a State outlet that reports every setting by name, an example patch, and an RNBO patch for building your own external or VST/AU. Version 1.1.
 
-[br.freqshift](https://github.com/guaguanco127/br.freqshift) Max/MSP abstraction: stereo frequency shifter in gen~. Moves every partial by the same number of Hz, up or down, with a feedback delay that shifts each echo again for barber-pole spirals. Feedback up to 0.99 that can never run away, dry/wet, On/Off with Thru/Aux, all click-free, at any sample rate. Comes as a plain object whose controls take signals and a version with dials and a State outlet that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.0.
+[br.freqshift](https://github.com/guaguanco127/br.freqshift) Max/MSP abstraction: stereo frequency shifter in gen~. Moves every partial by the same number of Hz, up or down, with a feedback delay that shifts each echo again for barber-pole spirals. Feedback up to 0.99 that can never run away, dry/wet, On/Off with Thru/Aux, all click-free, at any sample rate. Comes as a plain object whose controls take signals and a version with dials and a State outlet that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.1.
 
 ## <a name="oscillators"></a>Oscillators
 
@@ -162,9 +162,9 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 ## <a name="distortion"></a>Distortion
 
-[br.crush](https://github.com/guaguanco127/br.crush) A stereo bit-crusher and sample-rate reducer: float Bits that morph smoothly between depths, Auto-gain so lowering Bits never jumps in level, a curved Rate dial with most of its travel in the low rates, a post low-pass, Dry/Wet and On/Off. Click-free, with a State outlet on the UI version that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.2.
+[br.crush](https://github.com/guaguanco127/br.crush) A stereo bit-crusher and sample-rate reducer: float Bits that morph smoothly between depths, Auto-gain so lowering Bits never jumps in level, a curved Rate dial with most of its travel in the low rates, a post low-pass, Dry/Wet and On/Off. Click-free, with a State outlet on the UI version that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.3.
 
-[br.overdrive](https://github.com/guaguanco127/br.overdrive) A stereo overdrive built in gen~: antialiased tanh drive up to 128 dB, Bias for tube-style even harmonics, a Tight high-pass before the drive and a Tone low-pass after it, Auto-gain so Drive changes the sound and not the level, Level, Dry/Wet and On/Off (Off pauses the DSP). Click-free, with a State outlet on the UI version that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.0.
+[br.overdrive](https://github.com/guaguanco127/br.overdrive) A stereo overdrive built in gen~: antialiased tanh drive up to 128 dB, Bias for tube-style even harmonics, a Tight high-pass before the drive and a Tone low-pass after it, Auto-gain so Drive changes the sound and not the level, Level, Dry/Wet and On/Off (Off pauses the DSP). Click-free, with a State outlet on the UI version that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.1.
 
 ## <a name="future"></a>Future Effects/Instruments
 
