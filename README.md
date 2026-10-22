@@ -99,6 +99,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.scrub](https://github.com/guaguanco127/br.scrub) A stereo delay-line scrubber in gen~: three buffers take turns, one records the newest Delay ms while the other two loop it at Rate -500 to 500 (backwards, frozen, or so fast it buzzes into a tone made of your input). Feedback with two sources (Input = echoes, Output = a spiral that piles up speed changes), LP on the scrubbed sound and its feedback, click-free Reset and Clear, On/Off with Thru/Aux mode, curved Rate dial. The version with dials has a State outlet that reports every setting by name, and an example patch. Based on scrubf~ from PeRColate (Trueman, DuBois). Max/MSP, RNBO and Max for Live. Version 1.0.
 
+[br.flapper](https://github.com/guaguanco127/br.flapper) A stereo triggered delay-line flapper in gen~: always recording, each trigger (a loud onset in Auto mode, or a Trigger bang) starts a flap that plays from that moment toward now, turns around, and flaps between the two while its envelope lasts. Up to 6 flaps (Steal or Stack), each randomly panned (Spread). Speed -500 to 500: above 1 flaps fast into a buzz made of your input, negative starts each flap backwards from now. ADSR + Length per flap, Overlap crossfades at the turns, LP, On/Off with Thru/Aux mode, curved Speed dial. The version with dials has a State outlet that reports every setting by name, and an example patch. Based on flapper~ from PeRColate (Trueman, DuBois). Max/MSP, RNBO and Max for Live. Version 1.0.
+
 
 
 
