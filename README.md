@@ -77,9 +77,9 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.delay.digital](https://github.com/guaguanco127/br.delay.digital) A clean stereo digital delay: time changes crossfade to the new time instead of bending the pitch (Xfade from a quick cut to a 5 s blur), Linked / Stereo / Ping-Pong modes, straight or cross feedback up to a never-fading 1, tone filters on the echoes, Hold to freeze the loop, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live, with a State outlet on the UI version that reports every setting by name. Version 1.1.
 
-[br.delay.pitch.a](https://github.com/guaguanco127/br.delay.pitch.a) A stereo delay with a pitch-shifter inside the delay line, so every repeat is shifted again. Protected feedback loop (soft saturation, Highpass/Lowpass) that can hold or build, low CPU at rest. Thru/Aux mode; the abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.4.
+[br.delay.pitch.a](https://github.com/guaguanco127/br.delay.pitch.a) A stereo delay with a pitch-shifter inside the delay line, so every repeat is shifted again. Protected feedback loop (soft saturation, Highpass/Lowpass) that can hold or build, low CPU at rest. Thru/Aux mode; the abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.5.
 
-[br.delay.pitch.b](https://github.com/guaguanco127/br.delay.pitch.b) Version b of br.delay.pitch: the same pitch-shifting delay plus just-intonation pitch steps (overtone scale) with fine-tune cents, and randomizing of pitch, delay time and feedback -- by button, automatically, or on every attack you play. Thru/Aux mode; the abstraction has a State outlet and an example patch. Version 1.2.
+[br.delay.pitch.b](https://github.com/guaguanco127/br.delay.pitch.b) Version b of br.delay.pitch: the same pitch-shifting delay plus just-intonation pitch steps (overtone scale) with fine-tune cents, and randomizing of pitch, delay time and feedback -- by button, automatically, or on every attack you play. Thru/Aux mode; the abstraction has a State outlet and an example patch. Version 1.3.
 
 [br.delay.swarm](https://github.com/guaguanco127/br.delay.swarm) (formerly br.spacedelay) A stereo multi-voice delay: up to 12 voices keep skipping to random delay times (crossfaded, click-free), each with its own randomly moving filter, amplitude and panning, plus a freeze that loops only the last moments of the delay. On/Off with Thru/Aux mode; the abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.3.
 
@@ -102,7 +102,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 ## <a name="spectral"></a>Spectral Effects
 
-[br.freeze](https://github.com/guaguanco127/br.freeze) A spectral freeze Max/MSP object and Max for Live Device. It can also freeze automatically on every attack you play, a Feedback control layers each new freeze onto the one you are hearing, and Dry/Wet keeps the dry sound under the freeze. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.6.  
+[br.freeze](https://github.com/guaguanco127/br.freeze) A spectral freeze Max/MSP object and Max for Live Device. It can also freeze automatically on every attack you play, a Feedback control layers each new freeze onto the one you are hearing, and Dry/Wet keeps the dry sound under the freeze. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.7.
 
 [br.freezex](https://github.com/guaguanco127/br.freezex) A spectral freeze object/device similar to br.freeze, except this allows for crossfading into the next freeze by as much as 10 seconds. It can also freeze automatically on every attack you play, a Feedback control layers each new freeze onto the one you are hearing, and Dry/Wet keeps the dry sound under the freeze. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.6.
 
