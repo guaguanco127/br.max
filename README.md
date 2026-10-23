@@ -132,6 +132,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.function](https://github.com/guaguanco127/br.function) Max/MSP abstraction: a mono rise/fall function generator in gen~, in the spirit of a Make Noise Maths channel. Envelope, slew/portamento and cycling LFO in one, with curved Rise and Fall, click-free retrigger, and end-of-rise/end-of-cycle pulses for chaining. Comes as a plain object whose controls take signals and a version with dials and a State outlet that reports every setting by name. Includes an RNBO patch for building an external or plugin. Version 1.1.
 
+[br.listramp](https://github.com/guaguanco127/br.listramp) Max/MSP abstraction: like [line], but for a whole list. Every value ramps to its new value at the same time, and a new list sent mid-ramp glides on from where the values are now, so constantly moving controls such as a dragged [multislider] never jump. Any list length (set by the argument), and the first list after loading arrives instantly. Includes an example patch. Version 1.0.
+
 ## <a name="sequencing"></a>Sequencing/Timing
 
 [br.counter](https://github.com/guaguanco127/br.counter) Max/MSP abstraction: a counter with eight modes in one object. Sync (follows the bangs or jumps to any number sent in), Forward, Backward, two Palindromes (ends played once or twice), Random, Urn (every number once, never repeating across rounds) and Drunk. Step size, Permutation (start the count later), and Fold: Modulo folds the count into a smaller range, Poly loops it on its own for polymeters. A carry outlet marks the end of each cycle for chaining counters, a hidden master outlet keeps the sync count running in every mode, and a Seed gives repeatable runs. Takes @attributes (@mode 3 @max 7). Version 1.0.
