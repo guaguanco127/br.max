@@ -112,7 +112,7 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.freeze.partials](https://github.com/guaguanco127/br.freeze.partials) A spectral-style freeze Max/MSP object and Max for Live Device: tracks the partials of live stereo input and holds them as a bank of 16 sine voices per side with Buchla-style folding and per-partial levels. Crossfades between freezes, can freeze on every attack, and includes sigmund~ (Mac + Windows). Speed and Depth set how fast and how far each partial drifts, every voice at its own random rate. The abstraction has a State outlet that reports every setting by name. Version 1.5 (Max for Live device: Live 12).
 
-[br.pitchshift](https://github.com/guaguanco127/br.pitchshift) A pitchshifting device/object with slight latency and no artifacts. Preferred for harmonization. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.3.
+[br.pitchshift](https://github.com/guaguanco127/br.pitchshift) A pitchshifting device/object with slight latency and no artifacts. Preferred for harmonization. The abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.4.
 
 [br.harmonizer](https://github.com/guaguanco127/br.harmonizer) Play harmonies on a live voice or instrument: MIDI notes pick the pitches and retune~ shifts the input to each one, up to 8 voices. Autogain keeps quiet playing above retune~'s threshold and loud accents from overdriving it, while the harmonies follow your real dynamics. Mono or true Stereo (left and right harmonized separately), ADSR envelope, dry/wet. Max/MSP abstraction with an example patch, and a Max for Live device with a MIDI From menu (Live 12). Version 1.0.
 
