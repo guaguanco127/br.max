@@ -197,3 +197,7 @@ br.modulator A variety of modulators (chorus, flanger, phaser, vibrato) with a v
 br.synth.detect A synth that takes in an audio signal and turns it into a synth.
 
 Many more...
+
+## License  
+
+Copyright (c) 2023-2026 Brian Riordan. Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): free to share and adapt for non-commercial use, with credit and a link back to this repository. See [LICENSE](LICENSE).
