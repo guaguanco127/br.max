@@ -73,6 +73,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.aux](https://github.com/guaguanco127/br.aux) Max/MSP abstraction: a minimal aux send for parallel effects. Outputs a click-free copy of the signal at a Level in dB, for an effect you add back to the dry signal. Stereo and mono, with an RNBO host and a State outlet on the UI versions that reports the level by name. Version 1.2.
 
+[br.haas](https://github.com/guaguanco127/br.haas) Max/MSP abstraction: a click-free Haas stereo widener in gen~. Delays one side by a few ms to turn a mono source wide; only the late side's highs are delayed, so the bass stays centred and mono-safe. One bipolar Time control (left or right late) that never clicks, HP and On/Off. The gen~ is fully patched in small subpatchers for teaching, with a codebox version and an A/B patch to compare. Comes as a plain object and a version with dials and a State outlet that reports every setting by name. Max/MSP, RNBO and Max for Live. Version 1.0.
+
 ## <a name="delay"></a>Delay Effects   
 
 [br.delay.digital](https://github.com/guaguanco127/br.delay.digital) A clean stereo digital delay: time changes crossfade to the new time instead of bending the pitch (Xfade from a quick cut to a 5 s blur), Linked / Stereo / Ping-Pong modes, straight or cross feedback up to a never-fading 1, tone filters on the echoes, Hold to freeze the loop, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live, with a State outlet on the UI version that reports every setting by name. Version 1.2.
