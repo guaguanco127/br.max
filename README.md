@@ -83,6 +83,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.delay.pitch.b](https://github.com/guaguanco127/br.delay.pitch.b) Version b of br.delay.pitch: the same pitch-shifting delay plus just-intonation pitch steps (overtone scale) with fine-tune cents, and randomizing of pitch, delay time and feedback -- by button, automatically, or on every attack you play. Thru/Aux mode; the abstraction has a State outlet and an example patch. Version 1.3.
 
+[br.delay.reverse](https://github.com/guaguanco127/br.delay.reverse) A stereo onset-triggered reverse in gen~: always recording, every note (a loud onset in Auto mode, or a Trigger bang) comes back played backwards. After note waits for the note and plays it backwards ending on its own attack (a reverse swell); Now reverses what came just before the trigger. Loop keeps it reversing all the time, even through quiet or very dynamic playing, and onsets restart it. Up to 4 grabs, Speed 0.5 to 4, Length up to 10 s, Fade, Gap, On/Off with Thru/Aux mode, click-free at any sample rate. The version with dials has a State outlet that reports every setting by name, and an example patch. Based on Cipriani & Giri, Electronic Music and Sound Design Vol. 2. Max/MSP, RNBO and Max for Live. Version 1.1.
+
 [br.delay.swarm](https://github.com/guaguanco127/br.delay.swarm) (formerly br.spacedelay) A stereo multi-voice delay: up to 12 voices keep skipping to random delay times (crossfaded, click-free), each with its own randomly moving filter, amplitude and panning, plus a freeze that loops only the last moments of the delay. On/Off with Thru/Aux mode; the abstraction has a State outlet that reports every setting by name, and an example patch. Version 1.4.
 
 [br.delay.tape](https://github.com/guaguanco127/br.delay.tape) A stereo tape-style delay: time changes bend the pitch like tape, Linked / Stereo / Ping-Pong modes, straight or cross feedback that can build into a dub runaway, tone filters on the echoes, drive, wow and flutter, and On/Off. Click-free, including mode switches. Max/MSP, RNBO and Max for Live, with a State outlet on the UI version that reports every setting by name. Version 1.3.
@@ -181,8 +183,6 @@ Many of these effects have a RNBO patch included that allow the user to export a
 ## <a name="future"></a>Future Effects/Instruments
 
 These are planned effects to be released at a later date. 
-
-br.delay.reverse A reverse delay effect. 
 
 br.skipper A granular effect that acts like a chaotic digital delay that randomly skips between delay times. 
 
