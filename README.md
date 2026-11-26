@@ -130,6 +130,8 @@ Many of these effects have a RNBO patch included that allow the user to export a
 
 [br.osc](https://github.com/guaguanco127/br.osc) An anti-aliasing Max/MSP oscillator with 8 morphing shapes, skew and hard sync: clean at audio rate, and just as good as an LFO.
 
+[br.noise](https://github.com/guaguanco127/br.noise) Max/MSP abstraction: a noise generator with seven colours on one control (red, pink, green, white, black, blue, violet, dark to bright, smooth level-matched blends in between) plus a Grey amount that shapes any colour with the equal-loudness curve. Sample-rate independent and click-free. Comes as a plain object whose controls take signals and a version with controls and a State outlet that reports every setting by name. Includes an RNBO patch for building an external or plugin. Version 1.0.
+
 ## <a name="modulation"></a>Modulation Tools
 
 [br.scale](https://github.com/guaguanco127/br.scale) Max/MSP abstractions that turn an LFO, oscillator or function generator (bipolar or unipolar) into volume or frequency on curves that sound even to the ear: equal-loudness gain, and octave-even pitch or filter sweeps. Each comes as a plain object whose controls take signals and a version with dials and a State outlet that reports every setting by name. The example lets you hear the curves against a plain linear scaling. Includes RNBO patches for building an external or plugin. Version 1.2.
